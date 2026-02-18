@@ -2,3 +2,5 @@ requests
 pandas
 sqlalchemy
 pyodbc
+python-dotenv
+pytest
