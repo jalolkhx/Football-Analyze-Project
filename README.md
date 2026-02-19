@@ -1,6 +1,6 @@
 # Premier League Data Pipeline
 
-Automated ETL pipeline that fetches English Premier League data from API-Football, stores it in SQL Server, and visualizes it through Power BI dashboards. Features comprehensive error handling, data validation, logging, and automated testing.
+Production-grade ETL pipeline that collects English Premier League statistics from API-Football, processes data with pandas, and stores it in SQL Server. Containerized with Docker for consistent deployment and hosted on Railway cloud platform with automated daily updates via cron scheduling. Connects to Power BI through DirectQuery for real-time dashboard visualization. Features comprehensive error handling with retry logic, data validation ensuring mathematical consistency, structured logging for monitoring, and 15+ unit tests with pytest.
 
 ## 📊 What This Does
 
